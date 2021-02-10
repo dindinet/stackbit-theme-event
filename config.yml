@@ -1,0 +1,46 @@
+baseurl: "/"
+title: "Stackbit DIY Theme"
+init_is: "js/init.js"
+page_load_js: "js/page-load.js"
+page_unload_js: "js/page-unload.js"
+params:
+  description: A "do it yourself" theme for Stackbit
+  layout: full-width
+  style: classic
+  palette: red
+  mode: light
+  base_font: sans-serif
+  header:
+    title: DIY
+    logo: "images/logo.svg"
+    has_secondary_nav: true
+    secondary_nav_links:
+      - label: About
+        url: /about
+        style: link
+      - label: Sponsorship
+        url: /sponsorship
+      - label: Tickets
+        url: thank-you
+        style: primary
+    has_anncmnt: false
+    anncmnt_content: >-
+      Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**
+    anncmnt_align: left
+    anncmnt_is_home_only: true
+    anncmnt_has_close: true
+    anncmnt_id: new-features
+  footer:
+    content: "&copy; Stackbit-DIY. All rights reserved."
+    links:
+      - label: Made with Stackbit.
+        url: https://www.stackbit.com
+        style: link
+sass:
+  input_file: sass/main.scss
+  output_file: css/main.css
+  indentWidth: 4
+  outputStyle: expanded
+  precision: 10
+templates:
+  body_class: "layout-{{ site.params.layout }} style-{{ site.params.style }} palette-{{ site.params.palette }} mode-{{ site.params.mode }} font-{{ site.params.base_font }}"

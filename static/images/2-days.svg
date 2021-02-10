@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="49px" height="44px" viewBox="0 0 49 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 4</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(1.000000, 1.000000)">
+            <path d="M34.627,31.329 C35.394,30.563 36.636,30.563 37.403,31.329 C38.169,32.096 38.169,33.338 37.403,34.105 C36.636,34.871 35.394,34.871 34.627,34.105 C33.861,33.338 33.861,32.096 34.627,31.329" id="Fill-60" fill="#FFFFFF"></path>
+            <path d="M47.583,25.384 C47.583,34.883 39.883,42.583 30.384,42.583 C20.886,42.583 13.185,34.883 13.185,25.384 C13.185,15.886 20.886,8.185 30.384,8.185 C39.883,8.185 47.583,15.886 47.583,25.384" id="Fill-164" fill="#EF3054"></path>
+            <path d="M34.398,17.199 C34.398,26.697 26.697,34.398 17.199,34.398 C7.7,34.398 7.10542736e-15,26.697 7.10542736e-15,17.199 C7.10542736e-15,7.7 7.7,0 17.199,0 C26.697,0 34.398,7.7 34.398,17.199 Z" id="Stroke-165" stroke="#2C343C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
