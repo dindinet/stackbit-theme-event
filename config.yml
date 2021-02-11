@@ -1,18 +1,19 @@
 baseurl: "/"
 title: "Stackbit DIY Theme"
-init_is: "js/init.js"
+init_js: "js/init.js"
 page_load_js: "js/page-load.js"
 page_unload_js: "js/page-unload.js"
 params:
-  description: A "do it yourself" theme for Stackbit
-  layout: full-width
+  layout_type: full-width
   style: classic
   palette: red
   mode: light
   base_font: sans-serif
   header:
-    title: DIY
+    title: Event
     logo: "images/logo.svg"
+    logo_alt: Event logo
+    has_primary_nav: false
     has_secondary_nav: true
     secondary_nav_links:
       - label: About
@@ -20,22 +21,19 @@ params:
         style: link
       - label: Sponsorship
         url: /sponsorship
+        style: link
       - label: Tickets
         url: thank-you
         style: primary
     has_anncmnt: false
-    anncmnt_content: >-
-      Curabitur ac tellus mattis, tempor ipsum eu, eleifend sapien. **[Learn More](/pricing/)**
-    anncmnt_align: left
-    anncmnt_is_home_only: true
-    anncmnt_has_close: true
-    anncmnt_id: new-features
+
   footer:
-    content: "&copy; Stackbit-DIY. All rights reserved."
-    links:
-      - label: Made with Stackbit.
-        url: https://www.stackbit.com
-        style: link
+    has_primary_nav: false
+    has_secondary_nav: false
+    has_tertiary_nav: false
+    has_social: false
+    content: >-
+      &copy; Stackbit. All rights reserved. This Jamstack site was created with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>. Create yours <a href="https://app.stackbit.com/create?theme=event&utm_source=deployed-footer" target="_blank" rel="noopener">now</a>
 sass:
   input_file: sass/main.scss
   output_file: css/main.css
@@ -43,4 +41,4 @@ sass:
   outputStyle: expanded
   precision: 10
 templates:
-  body_class: "layout-{{ site.params.layout }} style-{{ site.params.style }} palette-{{ site.params.palette }} mode-{{ site.params.mode }} font-{{ site.params.base_font }}"
+  body_class: "layout-{{ site.params.layout_type }} style-{{ site.params.style }} palette-{{ site.params.palette }} mode-{{ site.params.mode }} font-{{ site.params.base_font }}"
