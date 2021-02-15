@@ -1,5 +1,5 @@
 baseurl: "/"
-title: "Stackbit DIY Theme"
+title: "Stackbit Event Theme"
 init_js: "js/init.js"
 page_load_js: "js/page-load.js"
 page_unload_js: "js/page-unload.js"
@@ -26,7 +26,6 @@ params:
         url: thank-you
         style: primary
     has_anncmnt: false
-
   footer:
     has_primary_nav: false
     has_secondary_nav: false
